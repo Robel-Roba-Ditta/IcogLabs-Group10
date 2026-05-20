@@ -210,7 +210,6 @@ MDPs are a **mathematical framework** for decision-making under uncertainty. Unl
 |-----------|-------------|
 | **States (S)** | All possible board configurations |
 | **Actions (A)** | All legal moves from each state |
-| **Transition function P(s'|s,a)** | Probability of reaching state s' from s via action a |
 | **Reward R(s,a)** | Immediate payoff for taking action a in state s |
 | **Policy π(s)** | The strategy: which action to take in each state |
 | **Discount factor γ** | How much future rewards are worth vs. immediate ones |
