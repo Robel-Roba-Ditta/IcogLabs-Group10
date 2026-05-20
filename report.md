@@ -264,4 +264,3 @@ MCTS and MDPs are powerful tools for larger, stochastic, or partially-observable
 
 ---
 
-*Project completed using Python 3. No external libraries required.*
