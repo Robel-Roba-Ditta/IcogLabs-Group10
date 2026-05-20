@@ -1,6 +1,6 @@
 # Tic-Tac-Toe AI — Implementation Report
 
-**Course Project | Minimax & Alpha-Beta Pruning**
+**Minimax & Alpha-Beta Pruning**
 
 ---
 
