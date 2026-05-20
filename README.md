@@ -1,15 +1,5 @@
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║        ✕  ─────────────  ○  ─────────────  ✕             ║
-║        │   TIC · TAC · TOE   A I   ENGINE  │             ║
-║        ○  ─────────────  ✕  ─────────────  ○             ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
 # Tic-Tac-Toe AI Engine
 ### Minimax · Alpha-Beta Pruning · Game Tree Analysis
 
@@ -44,7 +34,7 @@ Built as part of an AI course project exploring adversarial search, the codebase
 ```
  0 | 1 | 2       X | 1 | 2       X | O | X
 ---+---+---     ---+---+---     ---+---+---
- 3 | 4 | 5  →   3 | O | 5  →   X | O | O
+ 3 | 4 | 5  →    3 | O | 5  →    X | O | O
 ---+---+---     ---+---+---     ---+---+---
  6 | 7 | 8       6 | 7 | 8       O | X | X
 
@@ -115,10 +105,10 @@ When `α ≥ β`, the current branch is **pruned** — the opponent will never a
 ├──────────────────┬──────────────────┬───────────────────┤
 │   Algorithm      │   Nodes Visited  │   Time (approx.)  │
 ├──────────────────┼──────────────────┼───────────────────┤
-│   Minimax        │      549,945     │     ~150 ms        │
-│   Alpha-Beta     │       30,709     │      <5 ms         │
+│   Minimax        │      549,945     │     ~150 ms       │
+│   Alpha-Beta     │       30,709     │      <5 ms        │
 ├──────────────────┼──────────────────┼───────────────────┤
-│   REDUCTION      │       94.4%  ✂   │     97% faster     │
+│   REDUCTION      │      94.4%  ✂   │     97% faster    │
 └──────────────────┴──────────────────┴───────────────────┘
 ```
 
@@ -131,7 +121,7 @@ When `α ≥ β`, the current branch is **pruned** — the opponent will never a
 ```
 TicTacToe_AI/
 │
-├── tictactoe.py          ← Main game file (all logic + AI)
+├── tictactoe_ai.py       ← Main game file (all logic + AI)
 │   ├── Section 1         Board representation
 │   ├── Section 2         Move generation
 │   ├── Section 3         Win / draw detection
@@ -156,7 +146,7 @@ TicTacToe_AI/
 cd TicTacToe_AI
 
 # Run the game
-python tictactoe.py
+python tictactoe_ai.py
 ```
 
 **When prompted:**
@@ -243,19 +233,4 @@ Which AI algorithm should play against you?
 
 ---
 
-<div align="center">
 
-<br>
-
-```
-  ✕ ─────── ○ ─────── ✕
-  │   Built with Python  │
-  ○ ─────── ✕ ─────── ○
-```
-
-**Made for an AI Course Project**
-*No libraries. No shortcuts. Just clean, readable Python.*
-
-<br>
-
-</div>
