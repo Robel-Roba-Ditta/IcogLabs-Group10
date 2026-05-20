@@ -118,21 +118,17 @@ When `α ≥ β`, the current branch is **pruned** — the opponent will never a
 
 ## ◈ Project Structure
 
-```
+```text
 TicTacToe_AI/
 │
-├── tictactoe_ai.py       ← Main game file (all logic + AI)
-│   ├── Section 1         Board representation
-│   ├── Section 2         Move generation
-│   ├── Section 3         Win / draw detection
-│   ├── Section 4         Utility scoring function
-│   ├── Section 5         Minimax algorithm
-│   ├── Section 6         Alpha-Beta Pruning
-│   ├── Section 7         Node count comparison
-│   └── Section 8         Human vs AI game loop
+├── main.py               ← Application entry point, game loop, and algorithm comparison
+├── board.py              ← Core game rules, board state, and win/draw detection
+├── ai.py                 ← Intelligence logic (Minimax and Alpha-Beta Pruning)
+├── ui.py                 ← Terminal styling, colors, and board rendering
 │
 ├── report.md             ← Full analysis + MCTS / MDP comparison
 └── README.md             ← You are here
+
 ```
 
 ---
